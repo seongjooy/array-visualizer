@@ -5,6 +5,7 @@ const Memcanvas = () => {
   return (
     <div className="container">
       <div className="memorycanvas">
+        <div className="block" id="0">0</div>
         <div className="block" id="1">1</div>
         <div className="block" id="2">2</div>
         <div className="block" id="3">3</div>
@@ -68,7 +69,6 @@ const Memcanvas = () => {
         <div className="block" id="61">61</div>
         <div className="block" id="62">62</div>
         <div className="block" id="63">63</div>
-        <div className="block" id="64">64</div>
       </div>
 
 
