@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+}
+
+.memorycanvas{
+    padding: 20px 20px 20px 20px;
+    flex: 1;
+    height: 600px;
+    width: 600px;
+    margin-left: 30px;
+    margin-right: 25px;
+    background-color:rgb(231, 231, 231);
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 20px;
+}
+
+.block{
+    height: 74px;
+    width: 74px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 10px;
+    text-align: left;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.block:hover{
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.block:active{
+    background-color: grey;
+}
+
+.menu{
+    flex:1.2;
+    background-color: coral;
+    margin-right: 30px;
+}
+
+
